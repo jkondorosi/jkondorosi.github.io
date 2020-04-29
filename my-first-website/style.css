@@ -1,0 +1,81 @@
+/* font-family: 'Merriweather', serif; */
+
+body{
+  background:white;
+  color: #222;
+/*   padding:0; */
+  margin:0;
+}
+
+img{
+  width:100%;
+  height:400px;
+}
+
+header{
+  font-family: 'Abril Fatface', cursive;
+  display:block;
+  position:relative;
+  margin:auto;
+  line-height:1;
+  width:95%;
+}
+
+.onpicblock{
+  position: absolute;
+  left:23%;
+  bottom: 40px;
+/*   right: 350px; */
+}
+
+.myname{
+  font-size:35px;
+  padding: 0px;
+  margin: auto;
+  border:0px;
+/*   text-align: left; */
+}
+
+.anakin{
+  font-size:70px;
+  padding:0px;
+  border:0px;
+  margin:auto;
+}
+
+
+main{
+  width: 60%;
+  margin:50px auto auto;
+  font-size:20px;
+  line-height: 1.5;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+section{
+/*   color:red; */
+  padding:0 10% 0 0;
+}
+blockquote {
+  font-family: 'Abril Fatface', cursive;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  width:800px;
+  margin: 0;
+  background: #222;
+  color:white;
+/*   font-size:30px; */
+}
+
+blockquote p {
+  font-size:40px;
+  padding: 50px;
+}
+
+blockquote::before {
+  content: '\201C';
+  position:absolute;
+  top:-40px;
+  font-size:120px;
+}
